@@ -1,0 +1,129 @@
+﻿<?xml version="1.0"?>
+<ArrayOfFileConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<FileConfig>
+		<Id>1</Id>
+		<Name>1.1.จ่ายเงินมัดจำ  AE</Name>
+		<Show>true</Show>
+		<FileName>AE.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>2</Id>
+		<Name>1.2.ซื้อสด  HP</Name>
+		<Show>true</Show>
+		<FileName>HP.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>3</Id>
+		<Name>1.3.ใบสั่ง PO</Name>
+		<Show>true</Show>
+		<FileName>HP.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>4</Id>
+		<Name>1.4.1.ซื้อเชื่อ สินค้า  RR</Name>
+		<Show>true</Show>
+		<FileName>RR.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>5</Id>
+		<Name>1.4.2.ซื้อเชื่อ บริการ  RR</Name>
+		<Show>true</Show>
+		<FileName>RRSERVICEVAT.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>6</Id>
+		<Name>1.5.1.บันทึกค่าใช้จ่ายอื่นๆ OE</Name>
+		<Show>true</Show>
+		<FileName>OE.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>7</Id>
+		<Name>1.5.2.บันทึกค่าใช้จ่ายอื่นๆ OE หัก ณ ที่จ่าย</Name>
+		<Show>true</Show>
+		<FileName>OE.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>8</Id>
+		<Name>1.6.1.รายละเอียดผู้จำหน่าย AP-HP</Name>
+		<Show>true</Show>
+		<FileName>AP-HP.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>9</Id>
+		<Name>1.6.2.รายละเอียดผู้จำหน่ายย AP-RR</Name>
+		<Show>true</Show>
+		<FileName>AP-RR.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>10</Id>
+		<Name>1.6.3.รายละเอียดผู้จำหน่าย AP-OE</Name>
+		<Show>true</Show>
+		<FileName>AP-OE.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>11</Id>
+		<Name>1.7.รายละเอียดค่าใช้จ่ายอื่นๆ DETAILSOE </Name>
+		<Show>true</Show>
+		<FileName>DETAILSOE.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>12</Id>
+		<Name>4.1.1.ซื้อสินค้า ทำสต๊อก RRST 1</Name>
+		<Show>true</Show>
+		<FileName>RRST1.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>13</Id>
+		<Name>4.1.2.ซื้อสินค้า ทำสต๊อก RRST 2</Name>
+		<Show>true</Show>
+		<FileName>RRST2.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>14</Id>
+		<Name>4.1.3.ซื้อสินค้า ทำสต๊อก RRST 3</Name>
+		<Show>true</Show>
+		<FileName>RRST3.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>15</Id>
+		<Name>4.1.4.ซื้อสินค้า ทำสต๊อก RRST 4</Name>
+		<Show>true</Show>
+		<FileName>RRST4.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>16</Id>
+		<Name>4.1.5.ซื้อสินค้า ทำสต๊อก RRST 5</Name>
+		<Show>true</Show>
+		<FileName>RRST5.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>17</Id>
+		<Name>4.1.6.ซื้อสินค้า ทำสต๊อก RRST 6</Name>
+		<Show>true</Show>
+		<FileName>RRST6.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>18</Id>
+		<Name>4.1.7.ซื้อสินค้า ทำสต๊อก RRST 7</Name>
+		<Show>true</Show>
+		<FileName>RRST7.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>19</Id>
+		<Name>4.1.8.ซื้อสินค้า ทำสต๊อก RRST 8</Name>
+		<Show>true</Show>
+		<FileName>RRST8.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>20</Id>
+		<Name>4.1.9.ซื้อสินค้า ทำสต๊อก RRST 9</Name>
+		<Show>true</Show>
+		<FileName>RRST9.exe</FileName>
+	</FileConfig>
+	<FileConfig>
+		<Id>21</Id>
+		<Name>4.1.10.ซื้อสินค้า ทำสต๊อก RRST 10</Name>
+		<Show>true</Show>
+		<FileName>RRST10.exe</FileName>
+	</FileConfig>
+</ArrayOfFileConfig>

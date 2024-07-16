@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<ArrayOfFileConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<FileConfig>
+		<Id>1</Id>
+		<Name>File3</Name>
+		<Show>true</Show>
+		<FileName>เพิ่มฐานข้อมูลูกค้า.amk</FileName>
+	</FileConfig>
+</ArrayOfFileConfig>
