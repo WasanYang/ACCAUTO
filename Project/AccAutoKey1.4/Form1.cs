@@ -27,13 +27,18 @@ namespace AccAutoKey
             this.btnpage3.Text = ConfigurationManager.AppSettings["page3_text"];
             this.btnpage4.Text = ConfigurationManager.AppSettings["page4_text"];
             this.btnpage5.Text = ConfigurationManager.AppSettings["page5_text"];
-            this.aboutBtn.Text = "About";
-            this.flowLayoutPanel1.Width = this.btnpage1.Text.Length 
-                + this.btnpage2.Text.Length 
-                + this.btnpage3.Text.Length 
-                + this.btnpage4.Text.Length 
-                + this.btnpage5.Text.Length
-                + this.aboutBtn.Text.Length + 100;
+            this.aboutBtn.Text = ConfigurationManager.AppSettings["about_text"];
+
+            var widthAll = this.btnpage1.Width
+                + this.btnpage2.Width
+                + this.btnpage3.Width
+                + this.btnpage4.Width
+                + this.btnpage5.Width
+                + this.aboutBtn.Width + 165;
+
+            this.MinimumSize = new System.Drawing.Size(widthAll,1000);
+
+            this.Width = widthAll;
         }
         private void selectPage(UserControl control)
         {

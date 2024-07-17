@@ -35,7 +35,6 @@
             // 
             this.controlPanel.AutoScroll = true;
             this.controlPanel.AutoSize = true;
-            this.controlPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.controlPanel.Location = new System.Drawing.Point(0, 0);
             this.controlPanel.Name = "controlPanel";
             this.controlPanel.Size = new System.Drawing.Size(150, 150);
@@ -43,11 +42,11 @@
             // 
             // NewPage5
             // 
-            this.Load += new System.EventHandler(this.OnLoadPage);
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.controlPanel);
             this.Name = "NewPage5";
+            this.Load += new System.EventHandler(this.OnLoadPage);
             this.ResumeLayout(false);
             this.PerformLayout();
 

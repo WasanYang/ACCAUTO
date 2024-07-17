@@ -47,9 +47,10 @@
             // 
             this.panelControl.AutoScroll = true;
             this.panelControl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl.Location = new System.Drawing.Point(0, 63);
+            this.panelControl.Location = new System.Drawing.Point(0, 41);
+            this.panelControl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelControl.Name = "panelControl";
-            this.panelControl.Size = new System.Drawing.Size(538, 294);
+            this.panelControl.Size = new System.Drawing.Size(416, 192);
             this.panelControl.TabIndex = 46;
             this.panelControl.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl_Paint);
             // 
@@ -67,9 +68,10 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(538, 63);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(416, 41);
             this.flowLayoutPanel1.TabIndex = 47;
             // 
             // btnpage1
@@ -78,9 +80,10 @@
             this.btnpage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btnpage1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpage1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnpage1.Location = new System.Drawing.Point(3, 3);
+            this.btnpage1.Location = new System.Drawing.Point(2, 2);
+            this.btnpage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnpage1.Name = "btnpage1";
-            this.btnpage1.Size = new System.Drawing.Size(57, 57);
+            this.btnpage1.Size = new System.Drawing.Size(41, 37);
             this.btnpage1.TabIndex = 2;
             this.btnpage1.Text = "R1";
             this.btnpage1.UseVisualStyleBackColor = false;
@@ -93,9 +96,10 @@
             this.btnpage2.FlatAppearance.BorderSize = 0;
             this.btnpage2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpage2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnpage2.Location = new System.Drawing.Point(66, 3);
+            this.btnpage2.Location = new System.Drawing.Point(47, 2);
+            this.btnpage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnpage2.Name = "btnpage2";
-            this.btnpage2.Size = new System.Drawing.Size(57, 57);
+            this.btnpage2.Size = new System.Drawing.Size(41, 37);
             this.btnpage2.TabIndex = 41;
             this.btnpage2.Text = "R2";
             this.btnpage2.UseVisualStyleBackColor = false;
@@ -108,9 +112,10 @@
             this.btnpage3.FlatAppearance.BorderSize = 0;
             this.btnpage3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpage3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnpage3.Location = new System.Drawing.Point(129, 3);
+            this.btnpage3.Location = new System.Drawing.Point(92, 2);
+            this.btnpage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnpage3.Name = "btnpage3";
-            this.btnpage3.Size = new System.Drawing.Size(57, 57);
+            this.btnpage3.Size = new System.Drawing.Size(41, 37);
             this.btnpage3.TabIndex = 42;
             this.btnpage3.Text = "R3";
             this.btnpage3.UseVisualStyleBackColor = false;
@@ -123,9 +128,10 @@
             this.btnpage4.FlatAppearance.BorderSize = 0;
             this.btnpage4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpage4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnpage4.Location = new System.Drawing.Point(192, 3);
+            this.btnpage4.Location = new System.Drawing.Point(137, 2);
+            this.btnpage4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnpage4.Name = "btnpage4";
-            this.btnpage4.Size = new System.Drawing.Size(57, 57);
+            this.btnpage4.Size = new System.Drawing.Size(41, 37);
             this.btnpage4.TabIndex = 43;
             this.btnpage4.Text = "R4";
             this.btnpage4.UseVisualStyleBackColor = false;
@@ -138,9 +144,10 @@
             this.btnpage5.FlatAppearance.BorderSize = 0;
             this.btnpage5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpage5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnpage5.Location = new System.Drawing.Point(255, 3);
+            this.btnpage5.Location = new System.Drawing.Point(182, 2);
+            this.btnpage5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnpage5.Name = "btnpage5";
-            this.btnpage5.Size = new System.Drawing.Size(57, 57);
+            this.btnpage5.Size = new System.Drawing.Size(41, 37);
             this.btnpage5.TabIndex = 44;
             this.btnpage5.Text = "R5";
             this.btnpage5.UseVisualStyleBackColor = false;
@@ -153,9 +160,10 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.Location = new System.Drawing.Point(318, 3);
+            this.button1.Location = new System.Drawing.Point(227, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 57);
+            this.button1.Size = new System.Drawing.Size(105, 37);
             this.button1.TabIndex = 45;
             this.button1.Text = "Copy Right";
             this.button1.UseVisualStyleBackColor = false;
@@ -168,9 +176,10 @@
             this.aboutBtn.FlatAppearance.BorderSize = 0;
             this.aboutBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aboutBtn.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.aboutBtn.Location = new System.Drawing.Point(429, 3);
+            this.aboutBtn.Location = new System.Drawing.Point(336, 2);
+            this.aboutBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.aboutBtn.Name = "aboutBtn";
-            this.aboutBtn.Size = new System.Drawing.Size(105, 57);
+            this.aboutBtn.Size = new System.Drawing.Size(75, 37);
             this.aboutBtn.TabIndex = 46;
             this.aboutBtn.Text = "About";
             this.aboutBtn.UseVisualStyleBackColor = false;
@@ -182,25 +191,27 @@
             this.panel1.Controls.Add(this.flowLayoutPanel1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(538, 63);
+            this.panel1.Size = new System.Drawing.Size(416, 41);
             this.panel1.TabIndex = 45;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 26F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(538, 357);
+            this.ClientSize = new System.Drawing.Size(416, 233);
             this.Controls.Add(this.panelControl);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
-            this.Font = new System.Drawing.Font("Angsana New", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.Font = new System.Drawing.Font("Angsana New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(1000, 1000);
-            this.MinimumSize = new System.Drawing.Size(418, 39);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximumSize = new System.Drawing.Size(719, 667);
+            this.MinimumSize = new System.Drawing.Size(303, 39);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ACCOUNTANT ROBOT V.4 To Express";

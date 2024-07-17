@@ -39,14 +39,17 @@ namespace AccAutoKey4.Page
 
             for (int i = 0; i < ls.Count(); i++)
             {
+                Panel panel = new Panel();
                 Button btn = new Button();
                 btn.Location = new Point(30, 7 + (i * 45));
+                //btn.Location = new Point(30, 7 );
                 btn.Text = ls[i].Name;
                 btn.Font = new Font("Angsana New", 14, FontStyle.Regular);
                 btn.Size = new Size(210, 39);
                 btn.BackColor = Color.Gainsboro;
 
                 Button startBtn = new Button();
+                //startBtn.Location = new Point(245, 7 );
                 startBtn.Location = new Point(245, 7 + (i * 45));
                 startBtn.Text = "START";
                 startBtn.Font = new Font("Arial Rounded MT", 12, FontStyle.Bold);
@@ -64,6 +67,7 @@ namespace AccAutoKey4.Page
                 {
                     jobService.startProcess(ls[Convert.ToInt16(startBtn.Name) - 1]);
                 };
+
                 controlPanel.Controls.Add(btn);
                 controlPanel.Controls.Add(startBtn);
 

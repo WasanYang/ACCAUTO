@@ -16,8 +16,6 @@
 		<EndDate>EndDate</EndDate>
 		<Location>Location</Location>
 		<Record>Record</Record>
-		<SN>
-			1234
-		</SN>
+		<SN>1234</SN>
 	</AboutModel>
 </ArrayOfAboutModel>
