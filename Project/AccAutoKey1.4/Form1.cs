@@ -27,7 +27,13 @@ namespace AccAutoKey
             this.btnpage3.Text = ConfigurationManager.AppSettings["page3_text"];
             this.btnpage4.Text = ConfigurationManager.AppSettings["page4_text"];
             this.btnpage5.Text = ConfigurationManager.AppSettings["page5_text"];
-
+            this.aboutBtn.Text = "About";
+            this.flowLayoutPanel1.Width = this.btnpage1.Text.Length 
+                + this.btnpage2.Text.Length 
+                + this.btnpage3.Text.Length 
+                + this.btnpage4.Text.Length 
+                + this.btnpage5.Text.Length
+                + this.aboutBtn.Text.Length + 100;
         }
         private void selectPage(UserControl control)
         {
@@ -87,8 +93,23 @@ namespace AccAutoKey
 
         private void button2_Click(object sender, EventArgs e)
         {
-            RemarkPage page = new RemarkPage();
+            AboutPage page = new AboutPage();
             selectPage(page);
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelControl_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

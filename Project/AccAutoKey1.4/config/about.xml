@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<ArrayOfAboutModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<AboutModel>
+		<Address>
+			Remkhamhaeng SmartBiz 3 user Version 10.6 for Windows
+			Copyright (c) 1997 บริษัท จำกัด (มหาชน)
+			Tel 0123456789
+		</Address>
+		<Description>
+			ปัญญาประดิษฐ์: เทคโนโลยีล้ำสมัยเปลี่ยนโฉมโลก
+			ปัญญาประดิษฐ์ (AI) กำลังก้าวหน้าอย่างรวดเร็ว
+			กลายเป็นเทคโนโลยีที่ขับเคลื่อนการเปลี่ยนแปลงในหลายอุตสาหกรรม AI
+			ทำงานเลียนแบบความฉลาดของมนุษย์ วิเคราะห์ข้อมูล เรียนรู้ แก้ปัญหา และตัดสินใจได้อย่างชาญฉลาด
+		</Description>
+		<StartDate>StartDate</StartDate>
+		<EndDate>EndDate</EndDate>
+		<Location>Location</Location>
+		<Record>Record</Record>
+		<SN>
+			1234
+		</SN>
+	</AboutModel>
+</ArrayOfAboutModel>

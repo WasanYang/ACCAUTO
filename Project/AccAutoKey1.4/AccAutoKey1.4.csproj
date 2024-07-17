@@ -26,7 +26,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>http://localhost/AccAutoKey/</UpdateUrl>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>4</ApplicationRevision>
     <ApplicationVersion>4.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -152,6 +152,7 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\CopyRightModel.cs" />
+    <Compile Include="Models\About.cs" />
     <Compile Include="Models\FileConfig.cs" />
     <Compile Include="Page\CopyRight.cs">
       <SubType>UserControl</SubType>
@@ -189,11 +190,11 @@
     <Compile Include="Page\NewPage1.Designer.cs">
       <DependentUpon>NewPage1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Page\RemarkPage.cs">
+    <Compile Include="Page\AboutPage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Page\RemarkPage.Designer.cs">
-      <DependentUpon>RemarkPage.cs</DependentUpon>
+    <Compile Include="Page\AboutPage.Designer.cs">
+      <DependentUpon>AboutPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -219,8 +220,8 @@
     <EmbeddedResource Include="Page\NewPage1.resx">
       <DependentUpon>NewPage1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Page\RemarkPage.resx">
-      <DependentUpon>RemarkPage.cs</DependentUpon>
+    <EmbeddedResource Include="Page\AboutPage.resx">
+      <DependentUpon>AboutPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -261,6 +262,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\Config\about.xml" />
     <Content Include="bin\Debug\Config\copyRight.xml" />
     <Content Include="bin\Debug\Config\page1.xml" />
     <Content Include="bin\Debug\Config\page2.xml" />
@@ -269,6 +271,7 @@
     <Content Include="bin\Debug\Config\page5.xml" />
     <Content Include="config\page2.xml" />
     <Content Include="config\copyRight.xml" />
+    <Content Include="config\about.xml" />
     <Content Include="config\page5.xml" />
     <Content Include="config\page4.xml" />
     <Content Include="config\page3.xml" />
@@ -276,6 +279,77 @@
     <Content Include="icon.ico" />
     <Content Include="resourses\icon.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <PublishFile Include="config\about.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="config\copyRight.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="config\page1.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="config\page2.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="config\page3.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="config\page4.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="config\page5.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
