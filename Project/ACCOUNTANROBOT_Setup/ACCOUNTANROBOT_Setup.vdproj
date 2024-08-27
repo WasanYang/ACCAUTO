@@ -3,7 +3,7 @@
 "VSVersion" = "3:800"
 "ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
 "IsWebType" = "8:FALSE"
-"ProjectName" = "8:ACCOUNTANROBOT_Setup"
+"ProjectName" = "8:ACCautokey_setup"
 "LanguageId" = "3:1033"
 "CodePage" = "3:1252"
 "UILanguageId" = "3:1033"
@@ -16,13 +16,13 @@
         "Entry"
         {
         "MsmKey" = "8:_024151EDC3527C26BACAC8BD89B81ED4"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_02890BEE645A8333F5B6517847F0D8D9"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -47,6 +47,12 @@
         {
         "MsmKey" = "8:_1287A26C1F9E91061DD3BAD2A4645FE1"
         "OwnerKey" = "8:_BE6EA8565AFBBBBBFE847A45D8AE5B45"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -76,7 +82,7 @@
         "Entry"
         {
         "MsmKey" = "8:_3C34B63BA1DBDD880AD47D8D4AC1874F"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -88,7 +94,7 @@
         "Entry"
         {
         "MsmKey" = "8:_45B33C40BFE5482CE5C73C7079A79091"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -106,7 +112,7 @@
         "Entry"
         {
         "MsmKey" = "8:_66F1688CD19584B8AAFE78004BC569F1"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -124,7 +130,7 @@
         "Entry"
         {
         "MsmKey" = "8:_80A814AF9DC86C02CD70D0419059CD3F"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -136,25 +142,25 @@
         "Entry"
         {
         "MsmKey" = "8:_908653FAD30051F4D2222B9E1448069B"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_97A8551E8112BE82235AA7A62B845DCD"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_980819758508EBD221F26A8C99C87E09"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_B20A7570F3777772CD9A262AB7960E26"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -166,7 +172,7 @@
         "Entry"
         {
         "MsmKey" = "8:_B54A0CD99942ECCA650F4E44AB76C258"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -178,7 +184,7 @@
         "Entry"
         {
         "MsmKey" = "8:_BD0F5F1A1EBDE3FBF36455F13D54D0FB"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -190,7 +196,7 @@
         "Entry"
         {
         "MsmKey" = "8:_BE6EA8565AFBBBBBFE847A45D8AE5B45"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -213,12 +219,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_EC25F4771674C3B3692700741E885BDE"
         "OwnerKey" = "8:_BE6EA8565AFBBBBBFE847A45D8AE5B45"
         "MsmSig" = "8:_UNDEFINED"
@@ -226,7 +226,7 @@
         "Entry"
         {
         "MsmKey" = "8:_F3B976308A1588E0CD061455C94B4A43"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -250,7 +250,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+        "OwnerKey" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -357,7 +357,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:..\\..\\exe\\ACCOUNTANROBOT_Setup.msi"
+        "OutputFilename" = "8:..\\..\\exe\\ACCautokey V.5.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -367,6 +367,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -383,6 +399,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -1196,22 +1220,22 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:ACCOUNTANROBOT"
-        "ProductCode" = "8:{A23D6425-C7A7-4F5A-9DDF-8F099ADF3AF5}"
-        "PackageCode" = "8:{1E1DEF85-F0C0-4C65-A97E-F984E5D93577}"
+        "ProductName" = "8:ACCautokey"
+        "ProductCode" = "8:{DA56EC4D-8D22-41FA-B1BF-F38B94158FD4}"
+        "PackageCode" = "8:{6F0F31AD-2D95-4D52-92EC-926826EB34DF}"
         "UpgradeCode" = "8:{B0F33197-0D8D-4622-B4D9-3194AAD6FC16}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.1"
-        "Manufacturer" = "8:AI Tony"
+        "ProductVersion" = "8:1.5"
+        "Manufacturer" = "8:ACCautokey"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:ACCOUNTANROBOT"
+        "Title" = "8:ACCautokey"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:AI Tony"
+        "ARPCONTACT" = "8:ACCautokey"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -1318,30 +1342,30 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_BF4F7D03A9F845D3B8203120DE372324"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_6C7EE0488EDE4B74BE5558E59F12B5AB"
             {
-            "Name" = "8:Accountant Robot"
+            "Name" = "8:ACCautokey"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
-            "Folder" = "8:_0F7B6743CB9F42A6B3234F13FC864500"
+            "Target" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
+            "Folder" = "8:_4132EA667E0242649011543098870BC2"
             "WorkingFolder" = "8:_0413EE4B43694E4698534769FF3628E8"
             "Icon" = "8:_D7FF1A75E6AC4B8094782D43DDDA3670"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D93E90FFEBE24B34BAF2366B28FA127E"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D0EC9B73EFDA4BCC89BC6319137DDFF3"
             {
-            "Name" = "8:Accountant Robot"
+            "Name" = "8:ACCautokey"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
-            "Folder" = "8:_4132EA667E0242649011543098870BC2"
+            "Target" = "8:_1C4A1DAA9AC14DF480746649A30C21E4"
+            "Folder" = "8:_0F7B6743CB9F42A6B3234F13FC864500"
             "WorkingFolder" = "8:_0413EE4B43694E4698534769FF3628E8"
             "Icon" = "8:_D7FF1A75E6AC4B8094782D43DDDA3670"
             "Feature" = "8:"
@@ -1745,7 +1769,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_DF921BAEA88146AEB0E9BCC34DB2E7A3"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1C4A1DAA9AC14DF480746649A30C21E4"
             {
             "SourcePath" = "8:..\\AccAutoKey1.4\\obj\\Debug\\ACCOUNTANROBOT V.4 To Express.exe"
             "TargetName" = "8:"
