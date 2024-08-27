@@ -92,7 +92,7 @@
             this.description.Name = "description";
             this.description.Size = new System.Drawing.Size(514, 86);
             this.description.TabIndex = 0;
-            this.description.Text = "test";
+            this.description.Text = "กลายเป็นเทคโนโลยีที่ขับเคลื่อนการเปลี่ยนแปลงในหลายอุตสาหกรรม AI";
             this.description.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // panel2

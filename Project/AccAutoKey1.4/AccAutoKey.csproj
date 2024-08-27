@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3CD301E1-47C0-483F-A8FD-500FBCAD7CE6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>AccAutoKey4</RootNamespace>
-    <AssemblyName>ACCOUNTANROBOT V.4 To Express</AssemblyName>
+    <RootNamespace>AccAutoKey</RootNamespace>
+    <AssemblyName>AccAutoKey</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
@@ -37,7 +37,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
