@@ -4,7 +4,7 @@
     <PublishUrlHistory>D:\Work\ACCAUTO\Output\|D:\Work\AccAutoKey\AccAutoKey\AccAutoKey4\Publish\|D:\publish\ToExpress\|D:\publish\V2\|D:\publish\v2\</PublishUrlHistory>
     <InstallUrlHistory />
     <SupportUrlHistory />
-    <UpdateUrlHistory />
+    <UpdateUrlHistory>http://localhost/AccAutoKey/</UpdateUrlHistory>
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />
     <FallbackCulture>en-US</FallbackCulture>
