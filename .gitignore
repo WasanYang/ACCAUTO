@@ -1,0 +1,13 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio metadata
+.vs/
+*.user
+
+# NuGet packages
+packages/
+
+# Generated installer output (keep setup.iss, ignore built exe)
+installer/
