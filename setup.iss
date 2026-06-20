@@ -6,7 +6,7 @@
 ;   3. ได้ไฟล์ installer\ACCautokey_V5_Setup.exe
 ; ======================================================
 
-#define AppName "ACCOUNTANROBOT"
+#define AppName "ACCautokey"
 #define AppExe "AccAutoKey.exe"
 #define SrcDir "Project\AccAutoKey\bin\Release"
 #define CfgDir "Project\AccAutoKey\config"
@@ -18,7 +18,7 @@ AppVersion={#AppVersion}
 DefaultDirName={autopf}\{#AppName}
 DefaultGroupName={#AppName}
 OutputDir=installer
-OutputBaseFilename=ACCautokey_V{#AppVersion}_Setup
+OutputBaseFilename=ACCautokey_Setup
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern

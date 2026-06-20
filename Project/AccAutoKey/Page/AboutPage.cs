@@ -38,8 +38,10 @@ namespace AccAutoKey.Page
                 ls = (List<AboutModel>)xs.Deserialize(fs);
 
             var selected = ls[0];
-            Address.Text = selected.Address;
-            description.Text = selected.Description;
+            programNameBox.Text = selected.ProgramName;
+            addressBox.Text = selected.Address;
+            telBox.Text = selected.Tel;
+            contactBox.Text = selected.Contact;
             startDate.Text = selected.StartDate;
             endDate.Text = selected.EndDate;
             location.Text = selected.Location;
@@ -58,7 +60,7 @@ namespace AccAutoKey.Page
                 AutoSize = true,
                 Font = new Font("Angsana New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 222),
                 Location = new System.Drawing.Point(6, 6),
-                Text = "โฟลเดอร์โปรแกรม"
+                Text = "ตำแหน่งข้อมูล Excel"
             };
 
             var textBox = new TextBox
@@ -72,10 +74,7 @@ namespace AccAutoKey.Page
 
             panel.Controls.Add(label);
             panel.Controls.Add(textBox);
-
-            int logoIndex = flowLayoutPanel1.Controls.IndexOf(logo);
             flowLayoutPanel1.Controls.Add(panel);
-            flowLayoutPanel1.Controls.SetChildIndex(panel, logoIndex);
         }
     }
 }
