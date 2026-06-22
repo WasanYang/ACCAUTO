@@ -48,33 +48,28 @@ namespace AccAutoKey.Page
             record.Text = selected.Record;
             snBox.Text = selected.SN;
 
+            LoadCopyRightPanel();
             AddResourcePathRow();
+        }
+
+        private void LoadCopyRightPanel()
+        {
+            string crPath = Path.Combine(Application.StartupPath, "config", "copyRight.xml");
+            if (!File.Exists(crPath)) return;
+
+            List<CopyRightModel> crList;
+            var crXs = new XmlSerializer(typeof(List<CopyRightModel>));
+            using (var fs = new FileStream(crPath, FileMode.Open, FileAccess.Read))
+                crList = (List<CopyRightModel>)crXs.Deserialize(fs);
+
+            var labels = new System.Windows.Forms.Label[] { lblCr1, lblCr2, lblCr3, lblCr4, lblCr5 };
+            for (int i = 0; i < labels.Length && i < crList.Count; i++)
+                labels[i].Text = crList[i].Title;
         }
 
         private void AddResourcePathRow()
         {
-            var panel = new Panel { Size = new System.Drawing.Size(514, 39) };
-
-            var label = new Label
-            {
-                AutoSize = true,
-                Font = new Font("Angsana New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 222),
-                Location = new System.Drawing.Point(6, 6),
-                Text = "ตำแหน่งข้อมูล Excel"
-            };
-
-            var textBox = new TextBox
-            {
-                Enabled = false,
-                Font = new Font("Angsana New", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 222),
-                Location = new System.Drawing.Point(141, 3),
-                Size = new System.Drawing.Size(370, 33),
-                Text = ConfigurationManager.AppSettings["resource_path"] ?? "resources"
-            };
-
-            panel.Controls.Add(label);
-            panel.Controls.Add(textBox);
-            flowLayoutPanel1.Controls.Add(panel);
+            pathBox.Text = ConfigurationManager.AppSettings["resource_path"] ?? "resources";
         }
     }
 }

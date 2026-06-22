@@ -1,18 +1,8 @@
 <?xml version="1.0"?>
 <ArrayOfCopyRightModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<CopyRightModel>
-		<Title>โปรแกรมนี้มีลิขสิทธ์ ไม่อนุญาติให้แก้ไข ดัดแปลง คัดลอก หรือกระทำการใดๆ มิฉะนั้นจะถูกดำเนินคดีตามกฎหมาย</Title>
-	</CopyRightModel>
-	<CopyRightModel>
-		<Title>หจก. Cma การบัญชีและซอฟต์แวร์ เซ็นเตอร์ 9/1150 ซ.9 ต.หนองหาร อ.สันทราย จ.เชียงใหม่ 50290</Title>
-	</CopyRightModel>
-	<CopyRightModel>
-		<Title>เบอร์ 098-3688812</Title>
-	</CopyRightModel>
-	<CopyRightModel>
-		<Title>Id Line : chaiwan32</Title>
-	</CopyRightModel>
-	<CopyRightModel>
-		<Title>เพจ : Ai AccautoKey</Title>
-	</CopyRightModel>
+	<CopyRightModel><Title>ห้างหุ้นส่วนจำกัด ซีเอ็มเอการบัญชี และซอฟต์แวร์ เซ็นเตอร์</Title></CopyRightModel>
+	<CopyRightModel><Title>640/1 หมู่ 7 ซอย 28 ต.หนองหาร อ.สันทราย จ.เชียงใหม่ 50290</Title></CopyRightModel>
+	<CopyRightModel><Title>Copyright (c) ว1.011708</Title></CopyRightModel>
+	<CopyRightModel><Title>Tel 0983988812</Title></CopyRightModel>
+	<CopyRightModel><Title>ID Line : chaiwan32</Title></CopyRightModel>
 </ArrayOfCopyRightModel>
